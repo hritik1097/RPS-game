@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+.main{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 14, 81);
+    color: #fff;
+    padding: 20px;
+}
+.main h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.images{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.images img{
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    
+}
+
+.scores{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8vh;
+}
